@@ -2,7 +2,6 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-# Base de datos simulada de autos (JDM Legends)
 autos = [
     {"id": 1, "marca": "Nissan", "modelo": "Skyline GT-R R34", "tipo_combustible": "Gasolina", "precio_usd": 150000},
     {"id": 2, "marca": "Toyota", "modelo": "Supra MK4 (A80)", "tipo_combustible": "Gasolina", "precio_usd": 90000},
